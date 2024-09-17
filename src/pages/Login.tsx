@@ -35,7 +35,7 @@ const Login = () => {
 			const user = userCredential.user;
 			toast.success('Successfully logged in');
 			setLoading(false);
-			navigate('/z');
+			navigate('/Checkout');
 			console.log(user);
 		} catch (error) {
 			setLoading(false);

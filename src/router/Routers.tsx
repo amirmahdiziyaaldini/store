@@ -29,7 +29,7 @@ export default function Routers() {
 				<Route path="dashboard/all-Products" element={<AllProducts />} />
 				<Route path="dashboard" element={<Dashboard />} />
 			</Route>
-			
+
 			<Route path="Login" element={<Login />} />
 			<Route path="Signup" element={<Signup />} />
 		</Routes>
