@@ -1,0 +1,24 @@
+.table tr td img {
+	width: 40% !important;
+	height: 40% !important;
+	object-fit: contain;
+}
+
+td i {
+	cursor: pointer;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+th,
+td {
+	color: var(--primary-color);
+}
+
+.table tbody{
+    background-color: aqua;
+    height: 100px;
+    
+}

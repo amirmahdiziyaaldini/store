@@ -1,0 +1,9 @@
+.auto__form {
+	background: var(--primary-color);
+	padding: 40px;
+	border-radius: 5px;
+}
+
+.auto__form p a {
+    color: rgb(117, 117, 117);
+}
