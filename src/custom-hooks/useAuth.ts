@@ -10,7 +10,7 @@ export default function useAuth() {
 			if (user) {
 				setCurrentUser(user);
 			} else {
-				setCurrentUser('');
+				setCurrentUser({});
 			}
 		});
 
