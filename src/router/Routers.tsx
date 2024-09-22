@@ -25,9 +25,9 @@ export default function Routers() {
 
 			<Route path="/*" element={<ProtectedRoute />}>
 				<Route path="Checkout" element={<Checkout />} />
+				<Route path="dashboard" element={<Dashboard />} />
 				<Route path="dashboard/add-Products" element={<AddProducts />} />
 				<Route path="dashboard/all-Product" element={<AllProducts />} />
-				<Route path="dashboard" element={<Dashboard />} />
 			</Route>
 
 			<Route path="Login" element={<Login />} />
