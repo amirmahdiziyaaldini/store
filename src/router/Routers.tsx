@@ -13,6 +13,7 @@ import Dashboard from '../admin/dashboard';
 import ProtectedRoute from './ProtecttedRoutr';
 import AddProducts from '../admin/addProducts';
 import AllProducts from '../admin/allProduts';
+import Users from '../admin/Users';
 
 export default function Routers() {
 	return (
@@ -28,6 +29,7 @@ export default function Routers() {
 				<Route path="dashboard" element={<Dashboard />} />
 				<Route path="dashboard/add-Products" element={<AddProducts />} />
 				<Route path="dashboard/all-Product" element={<AllProducts />} />
+				<Route path="dashboard/Users" element={<Users />} />
 			</Route>
 
 			<Route path="Login" element={<Login />} />

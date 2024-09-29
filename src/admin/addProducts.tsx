@@ -68,6 +68,7 @@ export default function AddProducts() {
 						createdAt: new Date().toISOString(), // Track product creation time
 					};
 
+					//add firbes
 					await addDoc(collection(db, 'products'), productData);
 					toast.success('Product successfully added!');
 					navigate('/dashboard/all-Product');
